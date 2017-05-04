@@ -1,0 +1,95 @@
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #091B26;
+    flex-wrap: wrap; 
+}
+
+.socialMedia
+{
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+.image16
+{
+	width: 16%;
+}
+h1 {
+    flex-direction: row;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+
+
+
+/* NAVBAR CSS */
+
+
+/*nav ul ul {
+    display: none;
+}
+
+
+
+nav ul {
+    background: #2d2d2d;
+    color: ffffff;
+    font-size: 30px;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    margin-top: 0;
+}
+
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background: #4b545f;
+}
+
+nav ul li:hover a {
+    color: #fff;
+}
+
+
+
+nav ul ul {
+    background: #5f6975;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none;
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}
+
+nav ul ul li a:hover {
+    background: #4b545f;
+}*/
+
+
+/* END of NAVBAR CSS */
