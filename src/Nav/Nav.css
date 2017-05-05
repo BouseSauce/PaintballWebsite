@@ -2,94 +2,52 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #091B26;
-    flex-wrap: wrap; 
+    background: #091b26;
+    flex-wrap: wrap;
 }
 
-.socialMedia
-{
-	display: flex;
-	justify-content: space-around;
-
-
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
 }
 
-.image16
-{
-	width: 16%;
+.image16 {
+    width: 16%;
 }
+
 h1 {
     flex-direction: row;
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Verdana, sans-serif;
     text-transform: uppercase;
 }
 
+h1:hover
+{
+	transition: background-color 0.3s ease;
+	color:#00adef;
+}
 
+/*BOOK NOW BUTTON*/
 
+.bookText {
+    font-weight: bold;
+    color: black;
+    border: 0px solid #ffd800;
+    border-radius: 15px;
+    background: #ffd800;
+    padding: 18px 30px 18px 30px;
+    margin: 12px 0px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
 
-/* NAVBAR CSS */
-
-
-/*nav ul ul {
-    display: none;
+.bookText:hover {
+    transition: background-color 0.3s ease;
+    background-color: #00adef;
+    color: white;
 }
 
 
-
-nav ul {
-    background: #2d2d2d;
-    color: ffffff;
-    font-size: 30px;
-    padding: 0 20px;
-    list-style: none;
-    position: relative;
-    display: inline-table;
-    margin-top: 0;
-}
-
-nav ul:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li:hover {
-    background: #4b545f;
-}
-
-nav ul li:hover a {
-    color: #fff;
-}
-
-
-
-nav ul ul {
-    background: #5f6975;
-    padding: 0;
-    position: absolute;
-    top: 100%;
-}
-
-nav ul ul li {
-    float: none;
-    border-top: 1px solid #6b727c;
-    border-bottom: 1px solid #575f6a;
-    position: relative;
-}
-
-nav ul ul li a {
-    padding: 15px 40px;
-    color: #fff;
-}
-
-nav ul ul li a:hover {
-    background: #4b545f;
-}*/
-
-
-/* END of NAVBAR CSS */
+/*END OF BOOK NOW BUTTON*/
