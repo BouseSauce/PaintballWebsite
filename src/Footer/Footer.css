@@ -1,0 +1,68 @@
+@import url("../index.css");
+
+.container {
+    background-color: var(--backgroundMain);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    color: var(--text-color);
+}
+
+.container h1:hover {
+    color: white;
+}
+
+.callText {
+    display: flex;
+    justify-content: space-around;
+    color: var(--text-color);
+    font-size: 1.5vw;
+}
+
+.imageIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.imageIcons img {
+    width: 3vw;
+    height: 3vw;
+}
+
+a {
+    color: rgba(255, 255, 255, .7);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.container img:hover
+{
+	 transition: all .5s ease;
+	 transform:scale(1.1);
+}
+
+.footer h1
+{
+    font-size: 2vh;
+}
+
+
+.container .builtBy p
+{
+    text-align: center;
+    font-size: .9em;
+}
+

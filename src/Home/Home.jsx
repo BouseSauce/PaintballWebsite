@@ -1,11 +1,14 @@
 import "./Home.css";
 import React from "react";
-import bgImage from '../images/backgroundPlaceholder.jpg'
+import nameLogo from'../images/LogoWithNam.jpg';
 
 function template() {
   return (
-    <div className="home">
-
+    <div id="home" className="home">
+		<div className="backgroundContainer">
+			<img src={nameLogo}/>
+		</div>
+    
     </div>
   );
 };

@@ -4,3 +4,10 @@ body {
   font-family: 'Montserrat', Verdana, sans-serif;
   font-size: 16px;
 }
+
+:root {
+	--backgroundMain: #4ABDAC;
+	--orange : #FE6C00;
+	--buttons : #F78733;
+	--text-color : #DFDCE3;
+};

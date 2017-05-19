@@ -1,0 +1,22 @@
+.price {
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--background-color);
+
+}
+
+.price .priceContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    text-align: left;
+    color: black;
+}
+
+.price .priceContainer p{
+	font-size: calc( 1vh + 1vw);
+	}

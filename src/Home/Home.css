@@ -1,5 +1,27 @@
-body
-{
-	background-image: url("../images/backgroundPlaceholder.jpg");
-	background-size:100%;
+.home {
+    max-height: 90vh;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.home .backgroundContainer {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .backgroundContainer img {
+    height: 100%;
+    width: 100%;
+}
+
+.home h1 {
+    margin: 0px;
 }

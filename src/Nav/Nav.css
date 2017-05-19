@@ -1,53 +1,54 @@
-.navbarContainer {
+@import url("../index.css");
+.nav {
     display: flex;
-    align-items: center;
+    justify-content: center;
     justify-content: space-around;
-    background: #091b26;
-    flex-wrap: wrap;
-}
-
-.socialMedia {
-    display: flex;
-    justify-content: space-around;
-}
-
-.image16 {
-    width: 16%;
-}
-
-h1 {
     flex-direction: row;
-    color: white;
-    font-family: 'Montserrat', Verdana, sans-serif;
-    text-transform: uppercase;
+    align-items: center;
+    width: 100%;
+    background-color: var(--backgroundMain);
 }
 
-h1:hover
-{
-	transition: background-color 0.3s ease;
-	color:#00adef;
-}
-
-/*BOOK NOW BUTTON*/
-
-.bookText {
-    font-weight: bold;
-    color: black;
-    border: 0px solid #ffd800;
-    border-radius: 15px;
-    background: #ffd800;
-    padding: 18px 30px 18px 30px;
-    margin: 12px 0px;
-    text-transform: uppercase;
-    display: flex;
+.nav .navFelxContainer {
     justify-content: space-around;
+    flex-direction: row-reverse;
 }
 
-.bookText:hover {
-    transition: background-color 0.3s ease;
-    background-color: #00adef;
+.nav h1 {
+    color: var(--text-color);
+    font-size: calc( 1vh + 1vw);
+}
+
+.nav h1:hover {
     color: white;
 }
 
+.nav .button {
+    margin: 2vh;
+    color: var(--text-color);
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: var(--text-color);
+    padding: 1.5vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    border-radius: 15px;
+}
 
-/*END OF BOOK NOW BUTTON*/
+.nav .button:hover {
+    color: white;
+    background: var(--orange);
+    transition: .3s ease;
+    border-style: solid;
+    border-color: var(--orange);
+    border-radius: 15px;
+}
+
+.nav .logo {
+    width: 8vw;
+    height: 8vw;
+}
+
+.nav a {
+    text-decoration: none;
+}

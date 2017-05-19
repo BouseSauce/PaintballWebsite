@@ -1,0 +1,48 @@
+.location {
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    color: #091B26;
+}
+
+.location .priceContainer {
+    flex-direction: column;
+}
+
+.location .contentContainer {
+    display: flex;
+    color: #091B26;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.location .contentContainer .locationContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location .contentContainer .mapContainer {
+    height: 30vh;
+    width: 75vw;
+    padding-left:  2vw;
+}
+
+.location .contentContainer .locationContainer .socialMedia img
+{
+    height: 40px;
+    transition: all .2s ease-in-out;
+}.location .contentContainer .locationContainer .socialMedia img:hover
+{
+    
+    transform: scale(1.1);
+}
+.location .contentContainer .locationContainer .socialMedia a
+{
+    text-decoration: none;
+}
