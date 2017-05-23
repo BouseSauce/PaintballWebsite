@@ -2,6 +2,7 @@
 .nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
@@ -33,6 +34,8 @@
     margin-right: 1vh;
     margin-left: 1vh;
     border-radius: 15px;
+    width: 11vw;
+    text-align: center;
 }
 
 .nav .button:hover {
@@ -51,4 +54,20 @@
 
 .nav a {
     text-decoration: none;
+}
+
+.nav .navContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+
+.nav .buttonContainer
+{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
 }

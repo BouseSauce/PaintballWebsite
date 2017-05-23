@@ -7,6 +7,7 @@ function template() {
     <div id="home" className="home">
 		<div className="backgroundContainer">
 			<img src={nameLogo}/>
+			
 		</div>
     
     </div>

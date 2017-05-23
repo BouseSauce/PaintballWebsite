@@ -5,11 +5,17 @@
   "dependencies": {
     "google-maps-react": "^1.0.19",
     "react": "^15.5.4",
+    "react-big-calendar": "^0.14.0",
     "react-dom": "^15.5.4",
     "react-gmaps": "^1.6.0"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "css-loader": "^0.28.2",
+    "moment": "^2.18.1",
+    "react-big-calendar": "^0.14.0",
+    "react-scripts": "0.9.5",
+    "style-loader": "^0.18.0",
+    "superagent": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
