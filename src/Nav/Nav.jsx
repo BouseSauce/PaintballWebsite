@@ -8,9 +8,9 @@ function template() {
    
 
       	<div className="navContainer">
-      	<a href="#"><h1>Home</h1></a>
-      	<a href="#location"><h1>Find Us</h1></a>
-      	<a href="#price"><h1>Price</h1></a>
+        	<a href="#home"><h1>Home</h1></a>
+        	<a href="#location"><h1>Find Us</h1></a>
+        	<a href="#price"><h1>Price</h1></a>
       	</div>
       	   	<div className="buttonContainer">	
       	<a href='#'><h1 className="button">Book Now</h1></a>

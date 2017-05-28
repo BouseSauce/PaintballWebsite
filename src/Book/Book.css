@@ -1,3 +1,52 @@
+.bookContainer
+{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+
+}
+
+.bookContainer .calanderContainer
+{
+   width: 50%;
+
+}
+.bookContainer .bookNow
+{
+   
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+
+
+}.bookContainer .bookNow form
+{
+   
+ 
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+ 
+  
+
+
+
+}.bookContainer .bookNow form input
+{
+   
+   padding: calc(2vh+2vh);
+
+
+
+}
+
+
 .rbc-btn {
   color: inherit;
   font: inherit;

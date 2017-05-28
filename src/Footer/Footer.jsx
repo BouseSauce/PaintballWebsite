@@ -9,8 +9,9 @@ function template() {
   		<div className="pageBackGround">
 		    <div className="footer">
 		      <a href="#nav"><h1>Home</h1></a>
-		      <a href="#location"><h1>Find Us</h1></a>
-		      <h1>Price</h1>
+		      <a href="#location"><h1>Find Us</h1></a> 
+		      <a href="#price"><h1>Price</h1></a>
+
 		    </div>
 		 
 		     <div className="imageIcons">

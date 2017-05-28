@@ -9,7 +9,7 @@ function template() {
 			<img src={nameLogo}/>
 			
 		</div>
-    
+    	
     </div>
   );
 };
